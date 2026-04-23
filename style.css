@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
      box-sizing: border-box;
+     width: 100%;
+     margin: 0;
 }
 
 .container {
@@ -135,10 +137,54 @@ h1 {
     font-style: italic;
     display: flex;
     margin: 20px 0px;
+    color: #1F2937;
 }
 
 .quote .author p {
     font-weight: 900;
     margin: 0;
     text-align: end;
+    color: #1F2937;
+}
+
+.body_third {
+    margin: 100px 150px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_third_left h2,
+p {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.body_third_left p {
+    font-weight: 300;
+}
+
+.body_third_right {
+    display: flex;
+    align-items: center;
+}
+
+.body_third_right button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
