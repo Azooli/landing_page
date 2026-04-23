@@ -37,7 +37,7 @@ body {
 }
 
 .header li {
-    size: 18px;
+    font-size: 18px;
     list-style: none;  
 }
 
@@ -63,7 +63,7 @@ a {
 }
 
 h1 {
-    size: 48px;
+    font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     margin-bottom: 5px;
@@ -71,7 +71,7 @@ h1 {
 
 .left_header p {
     color: #E5E7EB;
-    size: 18px;
+    font-size: 18px;
     margin: 10px 0px;
 }
 
@@ -91,7 +91,7 @@ h1 {
 .body_second h2 {
     display: flex;
     justify-content: center;
-    size: 36px;
+    font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
@@ -118,8 +118,18 @@ h1 {
 .gallery p {
     width: 150px;
     color: #5d6673;
-    size: 18px;
+    font-size: 18px;
     margin: 5px 0px;
     display: flex;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote .main_text p {
+    font-size: 36px;
+    font-weight: 300;
 }
