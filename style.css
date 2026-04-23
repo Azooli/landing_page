@@ -132,4 +132,13 @@ h1 {
 .quote .main_text p {
     font-size: 36px;
     font-weight: 300;
+    font-style: italic;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.quote .author p {
+    font-weight: 900;
+    margin: 0;
+    text-align: end;
 }
